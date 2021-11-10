@@ -10,4 +10,5 @@ def encode(message, shift):
   return "".join(d.get(c, c) for c in message)
 
 print(encode(s, 10))
+#output:
 #dro aesmu lbygx pyh tewzc yfob dro vkji nyq
